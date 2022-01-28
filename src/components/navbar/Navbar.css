@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  margin-bottom: 80px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 0px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navbar .logo-image {
+  width: 36px;
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+}
