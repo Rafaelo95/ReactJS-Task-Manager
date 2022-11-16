@@ -9,11 +9,13 @@ import Login from "./components/login/Login";
 import Project from "./components/project/Project";
 import Signup from "./components/signup/Signup";
 import Navbar from "./components/navbar/Navbar";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Sidebar />
         <div className="container">
           <Navbar />
           <Routes>
