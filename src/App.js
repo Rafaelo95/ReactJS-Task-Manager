@@ -16,8 +16,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Sidebar />
+      <Navbar />
         <div className="container">
-          <Navbar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/create" element={<Create />} />
